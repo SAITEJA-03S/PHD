@@ -1,0 +1,173 @@
+.avosis-page-banner {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background-image: url('https://phdthesiscrafts.com/img/carousel-1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.avosis-page-banner .banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 32, 72, 0.75);
+  z-index: 1;
+}
+
+.avosis-page-banner .banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+.avosis-page-banner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.avosis-page-banner .breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.avosis-page-banner .breadcrumb li {
+  color: #d4e6ff;
+}
+
+.avosis-page-banner .breadcrumb li::after {
+  content: '/';
+  margin-left: 10px;
+  color: #7fbfff;
+}
+
+.avosis-page-banner .breadcrumb li:last-child::after {
+  display: none;
+}
+
+.avosis-page-banner .breadcrumb a {
+  color: #00c4f4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.avosis-page-banner .breadcrumb .active {
+  color: #ffffff;
+  font-weight: 600;
+}
+.phd-service-section {
+  background: #dce6ea;
+  padding: 80px 0;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.section-small span {
+  width: 60px;
+  height: 2px;
+  background: #18a6b4;
+  display: block;
+}
+
+.section-small h4 {
+  color: #18a6b4;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.section-header h2 {
+  font-size: 38px;
+  color: #1b2b4b;
+  margin-bottom: 40px;
+}
+
+/* service content */
+
+.service-content {
+  max-width: 930px;
+  margin: auto;
+}
+
+.service-image img {
+  width: 80%;
+  height: 430px;
+  border-radius: 4px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  object-fit: fill;
+  margin-top: 30px;
+}
+
+.service-subtitle {
+  color: #18a6b4;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.service-title {
+  font-size: 32px;
+  color: #1b2b4b;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.service-text p {
+  color: #0f0101;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 15px;
+}
+.service-text ul{
+    text-align: left;
+    padding: 15px;
+}
+.service-text h5{
+    margin-top: 10px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+  .avosis-page-banner {
+    height: 300px;
+  }
+
+  .avosis-page-banner h1 {
+    font-size: 34px;
+  }
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

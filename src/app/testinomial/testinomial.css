@@ -1,0 +1,145 @@
+/* 
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}  */ 
+  
+.testimonial-section {
+  padding: 90px 0;
+  background: #f9feff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-section h1 {
+  text-align: center;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.testimonial-section h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 15px;
+}
+
+.carousel-wrapper{
+max-width:1200px;
+margin:auto;
+position:relative;
+}
+
+/* hide radio buttons */
+.carousel-wrapper input{
+display:none;
+}
+
+.carousel{
+overflow:hidden;
+width:100%;
+}
+
+.carousel-track{
+display:flex;
+transition:0.6s ease;
+gap:30px;
+}
+
+/* each slide */
+.testimonial-slide{
+min-width:33.33%;
+box-sizing:border-box;
+}
+
+/* testimonial card */
+.testimonial-card{
+background:#fff;
+padding:30px 25px;
+border-radius:8px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.testimonial-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f214b;
+}
+
+/* image */
+.client-img img{
+width:90px;
+height:90px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+/* dots */
+.carousel-buttons{
+text-align:center;
+margin-top:30px;
+}
+
+.dot{
+height:12px;
+width:12px;
+margin:0 6px;
+background:#cbd5e1;
+border-radius:50%;
+display:inline-block;
+cursor:pointer;
+}
+
+.dot:hover{
+background:#0ea5b7;
+}
+
+/* slide movement */
+
+#t1:checked ~ .carousel .carousel-track{
+transform:translateX(0);
+}
+
+#t2:checked ~ .carousel .carousel-track{
+transform:translateX(-33.33%);
+}
+
+#t3:checked ~ .carousel .carousel-track{
+transform:translateX(-66.66%);
+}
+
+/* fade up animation */
+
+.fade-up{
+opacity:0;
+transform:translateY(60px);
+animation:fadeUp 1s forwards;
+}
+
+@keyframes fadeUp{
+to{
+opacity:1;
+transform:translateY(0);
+}
+}

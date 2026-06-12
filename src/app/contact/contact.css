@@ -1,0 +1,187 @@
+.avosis-page-banner {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background-image: url('https://phdthesiscrafts.com/img/carousel-1.jpg');
+  background-size: fill;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.avosis-page-banner .banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 32, 72, 0.75);
+  z-index: 1;
+}
+
+.avosis-page-banner .banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+.avosis-page-banner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.avosis-page-banner .breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.avosis-page-banner .breadcrumb li {
+  color: #d4e6ff;
+}
+
+.avosis-page-banner .breadcrumb li::after {
+  content: '/';
+  margin-left: 10px;
+  color: #7fbfff;
+}
+
+.avosis-page-banner .breadcrumb li:last-child::after {
+  display: none;
+}
+
+.avosis-page-banner .breadcrumb a {
+  color: #00c4f4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.avosis-page-banner .breadcrumb .active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .avosis-page-banner {
+    height: 300px;
+  }
+
+  .avosis-page-banner h1 {
+    font-size: 34px;
+  }
+}
+
+.contact-section {
+  padding: 80px 0;
+  background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-heading span {
+  color: #1ba9b6;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.contact-heading h2 {
+  font-size: 36px;
+  color: #0f214b;
+  margin-top: 10px;
+}
+
+.contact-wrapper {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+}
+.contact-wrapper h4{
+  color: #1ba9b6;
+}
+
+/* INFO */
+.contact-info{
+  margin-left: 60px;
+}
+.contact-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  background: #1ba9b6;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+/* MAP */
+
+.contact-map iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+}
+
+/* FORM */
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 100%;
+  background: #1ba9b6;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0f8f9a;
+}

@@ -1,0 +1,162 @@
+.footer {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #1b2340, #151c34);
+  color: #ffffff;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.footer-top {
+  padding: 70px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.footer-col ul li a {
+  color: #dcdcdc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  color: #f0f6f7;
+}
+
+/* Contact */
+.footer-col p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #e4e4eb;
+}
+
+.footer-col i {
+  margin-right: 10px;
+  color: #dbe3e4;
+  list-style: none;
+
+}
+
+/* Social icons */
+.footer-social {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+
+}
+
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: 0.3s;
+   text-decoration: none !important;
+ 
+}
+
+.footer-social a:hover {
+  background: #12b8c9;
+  border-color: #12b8c9;
+}
+
+/* Payments */
+.payment-img {
+  max-width: 250px;
+  height: 150px;
+}
+
+/* Newsletter */
+.newsletter {
+  margin-top: 20px;
+  display: flex;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+}
+
+.newsletter button {
+  background: #12b8c9;
+  color: #fff;
+  border: none;
+  padding: 0 22px;
+  cursor: pointer;
+}
+
+/* Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 0;
+}
+
+.bottom-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #dcdcdc;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-bottom ul li a {
+  color: #dcdcdc;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+  color: #12b8c9;
+}
+
+/* Scroll top */
+.scroll-top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 45px;
+  height: 45px;
+  background: #12b8c9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}

@@ -1,0 +1,89 @@
+<app-header></app-header>
+
+<section class="avosis-page-banner">
+  <div class="banner-overlay"></div>
+
+  <div class="container">
+    <div class="banner-content">
+      <h1>Support</h1>
+      <ul class="breadcrumb">
+        <li><a routerLink="head">Home</a></li>
+        <li>Pages</li>
+        <li class="active">queries</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="phd-service-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-small">
+        <span></span>
+        <h4>Queries</h4>
+        <span></span>
+      </div>
+
+      <h2>We welcome your valuable feedback</h2>
+    </div>
+
+    <div class="service-content fade-up">
+      <div class="service-image">
+        <img src="assests/feedback.jpg" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="feedback-section">
+  <div class="container">
+    <form class="feedback-form">
+      <label>Name <span>*</span></label>
+      <input type="text" placeholder="Enter your name" required />
+
+      <label>Email <span>*</span></label>
+      <input type="email" placeholder="Enter your email" required />
+
+      <label>Ratings <span>*</span></label>
+
+      <div class="rating-box">
+        <label class="rate">
+          <input type="radio" name="rating" />
+          <div class="emoji">😍</div>
+          <p>5 Star</p>
+        </label>
+
+        <label class="rate">
+          <input type="radio" name="rating" />
+          <div class="emoji">😊</div>
+          <p>4 Star</p>
+        </label>
+
+        <label class="rate">
+          <input type="radio" name="rating" />
+          <div class="emoji">😐</div>
+          <p>3 Star</p>
+        </label>
+
+        <label class="rate">
+          <input type="radio" name="rating" />
+          <div class="emoji">😔</div>
+          <p>2 Star</p>
+        </label>
+
+        <label class="rate">
+          <input type="radio" name="rating" />
+          <div class="emoji">😖</div>
+          <p>1 Star</p>
+        </label>
+      </div>
+
+      <label>Message <span>*</span></label>
+      <textarea placeholder="Write your message here..."></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+<app-call></app-call>
+<app-footer></app-footer>
